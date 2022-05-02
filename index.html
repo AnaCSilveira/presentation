@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/67b2175ea6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <title>Apresentação</title>
+  </head>
+
+  <body>
+    <header>
+      <div><img id="logo" src="./assets/img/fotologo.jpeg" alt="logo" /></div>
+      <ul>
+        <li>
+          <a target="_blank" href="https://github.com/AnaCSilveira"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a target="_blank" href="mailto:ana.cris372@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://linkedin.com/in/ana-cristina-silveira"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="container">
+        <div class="name">
+          <h1>Ana Cristina Silveira</h1>
+          <h5>Front-end developer</h5>
+        </div>
+      </section>
+
+      <div id="arrow">
+        <i
+          id="animation"
+          onclick="displayAbout()"
+          class="fa-solid fa-sort-down"
+        ></i>
+      </div>
+
+      <div class="about">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+          totam repellendus explicabo ex, temporibus, recusandae mollitia
+          voluptas unde dicta quia, enim inventore fugit maxime iusto corrupti
+          cum quisquam voluptatem praesentium!
+        </p>
+      </div>
+
+      <div class="form">
+        <div>
+          <p>Deixe seu contato!</p>
+        </div>
+        <form action="text">
+          <input type="email" placeholder="Digite seu email" />
+          <button>enviar <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
