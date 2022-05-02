@@ -24,6 +24,7 @@ body {
   background-image: url(./assets/img/background.jpg);
   background-size: cover;
   font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
   color: #fff;
 }
 
@@ -109,4 +110,11 @@ form {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(./assets/img/background-mobile.jpg);
+    background-size: 130%;
+  }
 }
